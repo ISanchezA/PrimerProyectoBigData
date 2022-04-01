@@ -1,4 +1,4 @@
 # PrimerProyectoBigData  
-descripcion : oprimera clase de big data
+descripcion : primera clase de big data
 
 ## clase 1
