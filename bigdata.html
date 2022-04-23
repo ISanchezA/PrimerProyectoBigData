@@ -1,25 +1,66 @@
 <html>
     <head>
         <title> Primera página html BigData</title>
+        <style>
+            body{
+                background-color: brown;
+
+            }
+            table,tr,th,td{ border: solid black;
+
+            }
+            div{border:solid black; margin: 20px; padding: 20px;
+            }
+            /* editando clases*/
+            .titulo{ text-align: center ;}
+            .centrado{ text-align: center; background-color: blueviolet;}
+            .unidad{ text-align: center;}
+            .unidad-2{ background-color: blueviolet; text-align: center; font-size: 30px;color:pink}
+            .unidad-3{ text-align: center; color: pink}
+            /*editando ID*/
+            #titulo-link{ color: tomato;}
+            #contenido-link{ background-color: cornflowerblue;}
+            
+        </style>
     </head>
     <body> 
         <div>
-            <h1>BIG DATA</h1>
+            <h1 class="titulo">BIG DATA</h1>
             <div>
-                <h2>UNIDAD HTML</h2> 
-                <P>Aplicando las nociones basicas del html</P> 
+                <h2 class="unidad-2">UNIDAD HTML</h2> 
+                <div> 
+                    <P class="unidad-3">Aplicando las nociones basicas del html</P> 
+                </div>
             </div>
             <div>
-                <P>Como hacer un link</P>
-                <a href="https://www.carolina.cl">ir a radio carolina</a>
+                <P id="titulo-link">Como hacer un link</P>
+                <a id="contenido-link" href="https://www.carolina.cl">ir a radio carolina</a> 
+                
             </div>
             <div>
-            <h3> imagen (img)</h3>
-            <img src="descarga.png"
+                <h3 class="centrado"> imagen (img)</h3>
+                <img src="descarga.png">
             </div>
-            <div>
-                <h6>By isaac</h6>
+            <div> 
+                <h6 class="unidad">By isaac</h6>
             </div>
         </div>
+        <table> 
+            <tr>
+                <th> unidad </th>
+                <th> materia </th>
+                <th> link </th>
+            </tr>
+            <tr> 
+                <td>unidad 1 </td>
+                <td> divertirse</td>
+                <td><a href="https://www.friv.com/"> jugar </a></td>
+            </tr>
+            <tr>
+                <td> unidad 2</td>
+                <td> mi utem </td>
+                <td><a href="https://mi.utem.cl/"> click</a></td>
+            </tr>
+        </table>
     </body>
 </html> 
